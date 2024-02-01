@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-flipud3d": "github:stdlib-js/array-base-flipud3d#main",
+    "@stdlib/array-base-flipud3d": "^0.1.0",
     "@stdlib/types": "^0.2.0"
   },
   "devDependencies": {
