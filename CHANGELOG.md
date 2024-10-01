@@ -1,0 +1,78 @@
+# CHANGELOG
+
+> Package changelog.
+
+<section class="release" id="v0.2.2">
+
+## 0.2.2 (2024-07-28)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.1">
+
+## 0.2.1 (2024-02-24)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.0">
+
+## 0.2.0 (2024-02-14)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2024-01-03)
+
+<section class="features">
+
+### Features
+
+-   [`329e6d7`](https://github.com/stdlib-js/stdlib/commit/329e6d7f7eb53c6961cd707e82138e5519767a31) - add `array/base/flipud4d`
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`329e6d7`](https://github.com/stdlib-js/stdlib/commit/329e6d7f7eb53c6961cd707e82138e5519767a31) - **feat:** add `array/base/flipud4d` _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
