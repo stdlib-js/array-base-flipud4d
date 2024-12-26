@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base-flipud4d
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import flipud4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flipud4d@esm/index.mjs';
+var flipud4d = require( '@stdlib/array-base-flipud4d' );
 ```
 
 #### flipud4d( x )
@@ -84,25 +102,16 @@ var out = flipud4d( [ [ [ [ 1, 2 ], [ 3, 4 ] ] ] ] );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
-import filled4dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d-by@esm/index.mjs';
-import flipud4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flipud4d@esm/index.mjs';
+```javascript
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
+var filled4dBy = require( '@stdlib/array-base-filled4d-by' );
+var flipud4d = require( '@stdlib/array-base-flipud4d' );
 
 var x = filled4dBy( [ 2, 3, 3, 3 ], discreteUniform( -50, 50 ) );
 console.log( x );
 
 var y = flipud4d( x );
 console.log( y );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -121,6 +130,14 @@ console.log( y );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-base/flipud2d`][@stdlib/array/base/flipud2d]</span><span class="delimiter">: </span><span class="description">reverse the order of elements along the first dimension of a two-dimensional nested input array.</span>
+-   <span class="package-name">[`@stdlib/array-base/flipud3d`][@stdlib/array/base/flipud3d]</span><span class="delimiter">: </span><span class="description">reverse the order of elements along the second-to-last dimension of a three-dimensional nested input array.</span>
+-   <span class="package-name">[`@stdlib/array-base/flipud5d`][@stdlib/array/base/flipud5d]</span><span class="delimiter">: </span><span class="description">reverse the order of elements along the second-to-last dimension of a five-dimensional nested input array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -134,7 +151,7 @@ console.log( y );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -196,6 +213,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/array-base-flipud4d/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-flipud4d/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/array/base/flipud2d]: https://github.com/stdlib-js/array-base-flipud2d
+
+[@stdlib/array/base/flipud3d]: https://github.com/stdlib-js/array-base-flipud3d
+
+[@stdlib/array/base/flipud5d]: https://github.com/stdlib-js/array-base-flipud5d
+
+<!-- </related-links> -->
 
 </section>
 
