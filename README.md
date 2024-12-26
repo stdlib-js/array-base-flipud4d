@@ -130,6 +130,14 @@ console.log( y );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-base/flipud2d`][@stdlib/array/base/flipud2d]</span><span class="delimiter">: </span><span class="description">reverse the order of elements along the first dimension of a two-dimensional nested input array.</span>
+-   <span class="package-name">[`@stdlib/array-base/flipud3d`][@stdlib/array/base/flipud3d]</span><span class="delimiter">: </span><span class="description">reverse the order of elements along the second-to-last dimension of a three-dimensional nested input array.</span>
+-   <span class="package-name">[`@stdlib/array-base/flipud5d`][@stdlib/array/base/flipud5d]</span><span class="delimiter">: </span><span class="description">reverse the order of elements along the second-to-last dimension of a five-dimensional nested input array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -205,6 +213,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/array-base-flipud4d/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-flipud4d/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/array/base/flipud2d]: https://github.com/stdlib-js/array-base-flipud2d
+
+[@stdlib/array/base/flipud3d]: https://github.com/stdlib-js/array-base-flipud3d
+
+[@stdlib/array/base/flipud5d]: https://github.com/stdlib-js/array-base-flipud5d
+
+<!-- </related-links> -->
 
 </section>
 
